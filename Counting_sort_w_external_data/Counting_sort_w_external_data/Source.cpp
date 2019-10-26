@@ -38,6 +38,16 @@ void counting_Sort_ex_2()
 		printf("%d ", freq[i]);
 	}
 	printf("\n");
+	for (int i = 0; i < ndata; ++i)
+	{
+		printf("%d ", freq[data[i]]);
+	}
+	printf("\n");
+	for (int i = 0; i < ndata; ++i)
+	{
+		printf("%d ", data[i]);
+	}
+	printf("\n");
 
 	printf("Step 3\n");
 	for (int i = ndata - 1; i >= 0; --i)
